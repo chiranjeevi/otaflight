@@ -6,7 +6,7 @@ from xml.etree import ElementTree
 import sys
 
 if len(sys.argv) == 3:
-    BitbucketAPIURL = 'http://bamboo.fleetmatics.host:8085/rest/api/'
+    BitbucketAPIURL = 'http://10.77.11.63:8085/rest/api/'
     bambooJobName = sys.argv[1]
     bambooBuildNo = sys.argv[2]
     userId = 'chiranjeevi.patel'
